@@ -1,0 +1,22 @@
+Predicting car accident severity
+
+Introduction
+	Car accidents are severe threatens nowadays for people’s safety. For most cases, car accidents are related to many conditions which can be avoided in 
+  advance, thus predicting car accident severity is important for a wide variety of people. Firstly, car accident severity is related to road conditions, 
+  light conditions etc., it can be helpful for traffic administrators to take efforts to improve traffic infrastructures. Secondly, based on all conditions 
+  related to car accident, developing a model to predict car accident severity can be useful to bring up advices for drivers before they get into trouble. 
+  More importantly, with the development of auto-driving in the future, a smart model should be built to avoid car accidents, deeper understanding of all 
+  conditions related to car accident is required. 
+
+Methodology
+	To predict car accident severity, we have analyzed all collisions provided by SPD and recorded by traffic records from 2004 to present. Firstly, we need 
+  to sort out locations of car accidents, “ADDRTYPE” can be an important condition, as it’s more dangerous at intersections or narrow roads. Secondly, the 
+  number of involved people, injuries is necessary to estimate severity, here “PERSONCOUNT”, “PEDCOUNT”, “PEDCYLCOUNT”, “VEHCOUNT”, “INJURIES”, 
+  “SERIOUSINJURIES” and “FATALITIES” are included in our model. Thirdly, driver’s conditions also matter in accidents, “INATTENTIONIND” and “UNDERINFL” are 
+  needed. Fourthly, environmental conditions is useful to predict possibility of accident in advance, “WEATHER”, “ROADCOND”, “LIGHTCOND” and “SPEEDING” are 
+  included in our model. The target is to predict severity, thus “SEVERITYCODE” is used for our supervised model.
+
+
+
+
+
